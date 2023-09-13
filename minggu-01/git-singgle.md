@@ -23,3 +23,7 @@
 - Try to commit new change in VS CODE
 
 ![Alt text](<Assets/commit in VS Code.PNG>)
+
+- Push in tekn-cloud-computing
+
+![Alt text](<Assets/Git push.PNG>)
