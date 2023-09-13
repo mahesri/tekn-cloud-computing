@@ -1,6 +1,6 @@
 <h2>Latihan 1<h2>
 
-- Create new repository
+<p>- Create new repository
 
 ![Alt text](<Assets/Create new repositori.PNG>)
 
@@ -26,4 +26,4 @@
 
 - Push in tekn-cloud-computing
 
-![Alt text](<Assets/Git push.PNG>)
+![Alt text](<Assets/Git push.PNG>)</p>
