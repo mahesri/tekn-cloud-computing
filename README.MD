@@ -1,8 +1,8 @@
  # tekn-cloud-computing
 
-Nama : Riyadi
-NIM : 225411079
-Kelas : K1
+Nama : Riyadi<br>
+NIM : 225411079<br>
+Kelas : K1<br>
 
 This repository is made for coursework.
 
