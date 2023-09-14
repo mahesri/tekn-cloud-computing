@@ -2,28 +2,28 @@
 
 <p>- Create new repository
 
-![Alt text](<Assets/Create new repositori.PNG>)
+![Cretae new repository](<Create new repositori.PNG>)
 
 - Clone repository
 
-![Alt text](<Assets/Clone repo.PNG>)
+![Clone repository](<Clone repo.PNG>)
 
 - Open git GUI
 
-![Alt text](<Assets/Git UI.PNG>)
+![Open git GUI](<Git UI.PNG>)
 
 - Open the git bash to check login information
 
-![Alt text](<Assets/show login information.PNG>)
+![Show login information](<show login information.PNG>)
 
 - Create a readme.md in git bash 
 
-![Alt text](<Assets/Add readme.PNG>)
+![Create readme in git bash](<Add readme.PNG>)
 
 - Try to commit new change in VS CODE
 
-![Alt text](<Assets/commit in VS Code.PNG>)
+![Commit in vs code](<commit in VS Code.PNG>)
 
 - Push in tekn-cloud-computing
 
-![Alt text](<Assets/Git push.PNG>)</p>
+![Push from git bash](<Git push.PNG>)</p>
