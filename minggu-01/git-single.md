@@ -1,4 +1,4 @@
-<h2>Latihan 1<h2>
+<h2>Latihan 1</h2>
 
 <p>- Create new repository
 
