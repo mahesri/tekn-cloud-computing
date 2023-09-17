@@ -1,6 +1,6 @@
  # tekn-cloud-computing
 
-Nama : Riyadi<br>
+Name : Riyadi<br>
 NIM : 225411079<br>
 Kelas : K1<br>
 
