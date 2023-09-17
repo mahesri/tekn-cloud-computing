@@ -6,3 +6,6 @@
 ![](clone.png)
 ### Add Remote Upstream
 ![](add-remote-upstream.png)
+### Pull Request
+![](pull-request-1.png)
+![](pull-request-2.png)
