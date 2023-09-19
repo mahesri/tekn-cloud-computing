@@ -9,4 +9,4 @@ Link latihan-2 :
 Link tugas 1 :<br> 
 [kolaborasi sebagai upstream author](https://github.com/mahesri/tekn-cloud-computing/blob/main/minggu-01/git-kolaborasi.md)
 
-[kolaborasi sebagai kontributon](https://github.com/wulankinasih973/tekn-cloud-computing/blob/main/minggu-01/git-kolaborasi.md)
+[kolaborasi sebagai kontributor](https://github.com/wulankinasih973/tekn-cloud-computing/blob/main/minggu-01/git-kolaborasi.md)
