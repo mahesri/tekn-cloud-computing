@@ -6,7 +6,7 @@ Link latihan-1 :
 Link latihan-2 : 
 [Rankuman-cloud-computing](https://github.com/mahesri/tekn-cloud-computing/blob/main/minggu-01/rangkuman-cloud-computing.md)
 
-Link tugas 1 : 
+Link tugas 1 :<br> 
 [kolaborasi sebagai upstream author](https://github.com/mahesri/tekn-cloud-computing/blob/main/minggu-01/git-kolaborasi.md)
 
 [kolaborasi sebagai kontributon](https://github.com/wulankinasih973/tekn-cloud-computing/blob/main/minggu-01/git-kolaborasi.md)
