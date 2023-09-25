@@ -40,7 +40,7 @@ Transitioning to SaaS requires assessing its impact on existing IT assets, addre
 
 Enterprises should consider the flexibility and risk-management implications of adding SaaS to their IT services portfolio. Successful integration and composition are critical for incorporating SaaS effectively into a service-centric IT infrastructure, and it is believed that the future of enterprise computing will include a combination of on-premise and cloud-based solutions.
 
-### 3. SaaS (Software as a Service) Platform itecture
+### 3. SaaS (Software as a Service) Platform Architecture
 
 Saas is way to deliver software, the provider of the software centrally hosts one or more applications an makes them available to customers over the internet. Saas architecture ia also on of the main pillars of cloud computing.
 
@@ -96,9 +96,64 @@ With internal or on-premise software applications, users are more forgiving on t
 
 Users typically expect the product to be available almost all the time and with no interruption to service.
 
-Take time to consider how we will factor upgrades, patches, or debugging and troubleshooting production issues into your SaaS applications architecture.
+Take time to consider how we will factor upgrades, patches, or debugging and troubleshooting production issues into our SaaS applications architecture.
 
 #### Multi-tenancy in SaaS architecture
 
 SaaS product must have support multi-tenancy. Our product needs to be able to accommodate multiple users whilst at the same time, ensuring that user data, privacy and are all still being observed
+
+### 4. How to build a cloud-based SaaS Application
+
+### Choose Programing Language
+
+First for all, we have to choose our programing language that we wanna use. In this case we use Phyton, because Python is great and many developers love it. Dynamic typing, meta programming, rapid prototyping. Everything’s possible with Python.
+
+### Choose Database 
+
+In this case the recommendations is making use of a document-oriented database. 
+
+Document databases get their type information from the data itself. Thus every instance of data can be different from any other.
+
+This allows more flexibility, especially when dealing with changes. And it often reduces database sizes.
+
+In summary, the DOB concept offers a richer experience with modern programming techniques.
+
+MongoDB is a document-oriented database that provides high performance, high availability, and easy scalability.
+
+Besides performance, scalability is the most important factor for a global SaaS business.
+
+
+### Set up MongoDB for the SaaS application
+
+In this case is using AWS cloud and therefore have set up EC2 instances in others country such as America etc.
+
+### Queuing system for your SaaS application
+
+
+A message queuing system is an asynchronous communication protocol, enabling sender and receiver of a message not interacting at the same time.
+
+Also known as Message Queuing (MSMQ) technology it enables web apps to run at different times and to communicate with various 3rd party integrations / APIs / and other services asynchronously.
+
+A message (e.g. a query asking a 3rd party service via an API) is placed onto the queue. It’s stored there until the receiver retrieves it.
+
+A message queue has limits regarding the size and amount of data transmitted in the queue. The great thing about modern queuing systems is that they can be scaled easily.
+
+### Web Storage S3
+
+Getting more user on board for our product will make easily wonder about our web storage. With the Amazon S3 storage service, we have a great, and highly scalable object storage installed.
+
+
+### Content Delivery Network for your SaaS application
+
+A content delivery network (CDN) is basically a system of distributed servers which enables, this is to serve content to our app users with high performance and high availability.
+
+
+### Recap: SaaS application set up
+
+With Python, MongoDB – as a great document-orientated database, RabbitMQ software-wise the basic setup is done. However, there is way more to think of.
+
+### Final step start with software testing
+
+
+
 
