@@ -14,7 +14,7 @@ SaaS or "Software as a Service." Is refers to the delivery of software applicati
 
 PaaS is "platform as A service." this refers to the delivery of a platform for developing, runing, and managing applications over the internet.
 
-### Conclusion
+#### Conclusion
 1. Iaas provide the infrastructure.
 2. SaaS provides the software,
 3. PaaS provides the platform for building, deploying dan managing applications
@@ -36,6 +36,9 @@ Benefits of SaaS include reduced deployment costs, minimized IT infrastructure r
 
 Transitioning to SaaS requires assessing its impact on existing IT assets, addressing data security standards, and evaluating reporting services. SaaS can change IT roles and responsibilities, potentially causing a shift from gatekeeper to a more collaborative role.
 
-### conclusion
+#### conclusion
 
 Enterprises should consider the flexibility and risk-management implications of adding SaaS to their IT services portfolio. Successful integration and composition are critical for incorporating SaaS effectively into a service-centric IT infrastructure, and it is believed that the future of enterprise computing will include a combination of on-premise and cloud-based solutions.
+
+### 3. SaaS (Software as a Service) Platform itecture
+
