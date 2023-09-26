@@ -51,3 +51,17 @@ Calligra Flow juga menyediakan Tamplate yang mana hal tersebut dapat memudahkan 
 User bisa mengganti elemen-elemen yang perlu diganti sesuai dengan kebutuhannya.
 
 ### DIA 
+
+Dia Diagram Editor adalah perangkat lunak diagram open source yang digunakan untuk membuat berbagai jenis diagram, termasuk diagram alur, diagram organisasi, diagram jaringan, dan banyak lagi. 
+
+1. Sumber terbuka
+
+Dia Diagram Editor adalah perangkat lunak open source yang tersedia secara gratis. Ini memungkinkan pengguna untuk mengunduh, menginstal, dan menggunakan perangkat lunak ini tanpa biaya lisensi.
+
+2. Berbagai Jenis Diagram:
+
+Dia Diagram Editor mendukung berbagai jenis diagram, sehingga cocok untuk berbagai keperluan, seperti dokumentasi proyek, perencanaan sistem, dan pemodelan proses.
+
+3. Antarmuka Pengguna Sederhana:
+
+Pengguna dapat menyesuaikan tampilan dan elemen-elemen diagram sesuai dengan kebutuhan mereka, termasuk warna, bentuk, dan gaya teks.
