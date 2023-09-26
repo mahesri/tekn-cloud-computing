@@ -37,5 +37,17 @@ Calligra Flow adalah layanan yang menyediakan diagram Cloud nanmun juga bisa did
 
 #### Fitur-fitur Calligra Flow diantaranya 
 
-.```
- ```
+Whiteboard yang dapat membantu kita untuk membuat text, chart, music sheet, menambahkan foto.
+
+#### Vectoral Drawwing
+
+Vectoral drawing adalah Membuat Gambar Vektor: Anda dapat membuat objek vektor seperti bentuk geometris, garis, kurva, teks, dan berbagai elemen grafis lainnya.
+
+Gambar-gambar yang kita buat dalam format vektor dapat dengan mudah diperbesar atau diperkecil tanpa mengorbankan ketajaman atau kualitas. Ini memungkinkan Anda untuk menggunakan gambar yang sama dalam berbagai konteks tanpa harus membuat ulang.
+
+#### Tamplate 
+
+Calligra Flow juga menyediakan Tamplate yang mana hal tersebut dapat memudahkan user untuk membuat sebuah bagan tanpa memulainya dari awal.
+User bisa mengganti elemen-elemen yang perlu diganti sesuai dengan kebutuhannya.
+
+### DIA 
