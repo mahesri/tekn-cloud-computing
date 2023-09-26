@@ -65,3 +65,48 @@ Dia Diagram Editor mendukung berbagai jenis diagram, sehingga cocok untuk berbag
 3. Antarmuka Pengguna Sederhana:
 
 Pengguna dapat menyesuaikan tampilan dan elemen-elemen diagram sesuai dengan kebutuhan mereka, termasuk warna, bentuk, dan gaya teks.
+
+### 2 Layanan SaaS lain 
+
+#### Figma 
+
+Figma adalah platform desain berbasis web yang populer dan kolaboratif yang digunakan oleh para desainer UI/UX, pengembang, tim produk, dan profesional kreatif lainnya. Ini adalah alat desain vektor yang kuat yang memungkinkan tim untuk bekerja sama secara real-time, membuat prototipe, dan mengembangkan desain produk dengan efisien.
+
+Figma adalah aplikasi berbasis web yang berarti kita tidak perlu mengunduh atau menginstal perangkat lunak. Semua pekerjaan desain dilakukan di browser web.
+
+Figma adalah platform desain vektor yang kuat. Ini memungkinkan kita membuat desain UI/UX dengan presisi tinggi, membuat ikon, elemen antarmuka, dan banyak lagi.
+
+Kita dapat membuat prototipe interaktif dengan alur kerja drag-and-drop yang mudah digunakan.
+
+Salah satu fitur utama Figma adalah kemampuan untuk berkolaborasi secara real-time dengan tim. Bekerja bersama pada proyek tanpa konflik versi atau sinkronisasi manual.
+
+#### Adobe XD
+
+Adobe XD (Experience Design) adalah perangkat lunak desain dan prototyping yang dirancang khusus untuk pengembangan antarmuka pengguna (UI/UX). 
+
+Adobe XD memungkinkan desainer untuk menciptakan desain web, aplikasi seluler, dan pengalaman pengguna dengan cepat dan efisien. Dengan berbagai fitur seperti alat desain vektor, prototyping interaktif, dan kemampuan berbagi proyek secara kolaboratif, Adobe XD memudahkan tim desain untuk bekerja sama dalam menghasilkan desain yang menarik dan fungsional.
+
+Ini adalah alat yang populer di kalangan profesional desain UI/UX dan sangat cocok untuk pengembangan berbagai jenis proyek digital.
+
+### Layanan Serupa yang bisa diinstal didekstop
+
+#### InVison Studio
+
+Invison Studio adalah aplikasi untuk mendesign UI maupun UX yang bisa diinstal didekstop. Invison menarkan versi trial selama 30hari dan juga berbayar.
+
+Invision juga menyediakan layanan kolaborasi yang mana hal tersebut membantu user untuk dapat bekerja sama dengan tim.
+
+#### SketchUp
+
+SketchUp adalah perangkat lunak desain 3D yang populer yang digunakan oleh profesional di berbagai industri, termasuk arsitektur, konstruksi, desain interior, permainan, film, dan banyak lagi. Dikembangkan oleh Trimble Inc., SketchUp memberikan alat yang intuitif dan mudah digunakan untuk membuat model 3D yang akurat dan visualisasi desain.
+
+Salah satu fitur menonjol dari SketchUp adalah antarmuka yang sederhana dan ramah pengguna yang memungkinkan bahkan pemula untuk dengan cepat menguasai perangkat lunak ini. Pengguna dapat membuat bentuk-bentuk dasar, mengedit entitas 3D, dan menerapkan tekstur dengan mudah. SketchUp juga mendukung penempatan model di lingkungan yang lebih luas, seperti memasukkan model Anda ke dalam gambar pemandangan yang ada.
+
+Selain itu, SketchUp memiliki beragam ekstensi dan plugin yang dapat digunakan untuk memperluas fungsionalitasnya. Pengguna dapat mengimpor dan mengekspor berbagai format file, membuat animasi, dan berkolaborasi dengan orang lain secara online. Dengan kesederhanaan dan fleksibilitasnya, SketchUp telah menjadi alat yang sangat berharga dalam industri desain 3D.
+
+Garis besar di atas memberikan gambaran singkat tentang SketchUp dan mengapa perangkat lunak ini menjadi pilihan utama untuk banyak profesional desain di seluruh dunia.
+
+
+
+
+
