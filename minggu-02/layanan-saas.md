@@ -100,7 +100,7 @@ Invision juga menyediakan layanan kolaborasi yang mana hal tersebut membantu use
 
 SketchUp adalah perangkat lunak desain 3D yang populer yang digunakan oleh profesional di berbagai industri, termasuk arsitektur, konstruksi, desain interior, permainan, film, dan banyak lagi. Dikembangkan oleh Trimble Inc., SketchUp memberikan alat yang intuitif dan mudah digunakan untuk membuat model 3D yang akurat dan visualisasi desain.
 
-Salah satu fitur menonjol dari SketchUp adalah antarmuka yang sederhana dan ramah pengguna yang memungkinkan bahkan pemula untuk dengan cepat menguasai perangkat lunak ini. Pengguna dapat membuat bentuk-bentuk dasar, mengedit entitas 3D, dan menerapkan tekstur dengan mudah. SketchUp juga mendukung penempatan model di lingkungan yang lebih luas, seperti memasukkan model Anda ke dalam gambar pemandangan yang ada.
+Salah satu fitur menonjol dari SketchUp adalah antarmuka yang sederhana dan ramah pengguna yang memungkinkan bahkan pemula untuk dengan cepat menguasai perangkat lunak ini. Pengguna dapat membuat bentuk-bentuk dasar, mengedit entitas 3D, dan menerapkan tekstur dengan mudah. SketchUp juga mendukung penempatan model di lingkungan yang lebih luas, seperti memasukkan model ke dalam gambar pemandangan yang ada.
 
 Selain itu, SketchUp memiliki beragam ekstensi dan plugin yang dapat digunakan untuk memperluas fungsionalitasnya. Pengguna dapat mengimpor dan mengekspor berbagai format file, membuat animasi, dan berkolaborasi dengan orang lain secara online. Dengan kesederhanaan dan fleksibilitasnya, SketchUp telah menjadi alat yang sangat berharga dalam industri desain 3D.
 
