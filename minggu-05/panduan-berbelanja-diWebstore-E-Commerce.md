@@ -9,3 +9,7 @@
 ![Membuat akun di Ecommerce-2](08.membuat-Akun-Ecommerce-2.PNG)
 
 ![Alt text](09.membuat-Akun-Ecommerce-3.PNG)
+
+## Menambahkan Shoping list
+
+![Alt text](<10.Menambahkan list.PNG>)
