@@ -5,3 +5,5 @@
 ## Membuat akun baru di e-Commerce
 
 ![Membuat akun di Ecommerce](07.membuat-Akun-Ecommerce.PNG)
+
+![Membuat akun di Ecommerce-2](08.membuat-Akun-Ecommerce-2.PNG)
