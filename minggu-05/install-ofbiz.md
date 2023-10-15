@@ -8,3 +8,7 @@
 ## dashboard ofbiz
 
 ![dashboard ofbiz](<dashbord ofbiz.PNG>)
+
+## membuat katalog baru
+
+![Alt text](membuat-katalog.PNG)
