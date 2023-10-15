@@ -2,4 +2,4 @@
 
 Latihan :
 
-[Install Apache Ofbis](install-ofbiz.md)
+[Install Apache Ofbiz](install-ofbiz.md)
