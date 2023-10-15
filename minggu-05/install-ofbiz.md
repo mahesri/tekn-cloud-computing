@@ -1,14 +1,18 @@
 ## Install ofbiz dilinux
-![Install ofbiz dilinux](<Menginstall Ofbiz dilinux.PNG>)
+![Install ofbiz dilinux](01.Menginstall-Ofbiz-dilinux.PNG)
+
+## Installasi selesai
+
+![Alt text](02.installasi-selesai.PNG)
 
 ## login ofbiz
 
-![login diofbiz](<Login di ofbiz.PNG>)
+![login diofbiz](03.Login-ofbiz.PNG)
 
 ## dashboard ofbiz
 
-![dashboard ofbiz](<dashbord ofbiz.PNG>)
+![dashboard ofbiz](04.dashbord-ofbiz.PNG)
 
 ## membuat katalog baru
 
-![Alt text](membuat-katalog.PNG)
+![Alt text](06.login-ecommerce.PNG)
