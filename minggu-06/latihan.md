@@ -4,7 +4,7 @@ Dalam mengerjakan praktikum pertemuan 6 ini menggunakan OS windows.
 
 ## Install compailer Go 
 
-Cek apakah go sudah terinstal atau belum :
+Cek compailer go di CMD apakah Go sudah terinstal atau belum :
 
 ![cek go](01.Cek-Versi-Go-CMD.PNG)
 
