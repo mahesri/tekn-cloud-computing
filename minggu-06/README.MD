@@ -4,5 +4,5 @@ Berikut ini adalah link hasil praktikum pertemuan 6 :
 
 [Latihan](latihan.md)
 
-[tugas](tugas.md)
+[Tugas](tugas.md)
 
