@@ -16,6 +16,6 @@ Membuat program :
 
 ![Mencoba membuat program](03.Membuat-program.PNG)
 
-Mencoba menjalankan program dengan mengetik 'go run <nama file>.go`
+Mencoba menjalankan program dengan mengetik 'go run < nama file >.go`
 
 ![run program](04.run-program.PNG)
