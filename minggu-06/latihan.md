@@ -1,8 +1,8 @@
 
 Catatan :
-Dalam mengerjakan praktikum pertemuan 6 ini menggunakan OS windows.
+Dalam mengerjakan praktikum pertemuan 6 ini menggunakan OS windows 10 dan menggunakan text editor Visual Studio Code.
 
-## Install compailer Go 
+## 1 Install compailer Go 
 
 Cek compailer go di CMD apakah Go sudah terinstal atau belum :
 
@@ -16,6 +16,6 @@ Membuat program :
 
 ![Mencoba membuat program](03.Membuat-program.PNG)
 
-Mencoba menjalankan program 
+Mencoba menjalankan program dengan mengetik 
 
 ![run program](04.run-program.PNG)
