@@ -22,7 +22,26 @@ Mencoba menjalankan program dengan mengetik 'go run "nama file".go`
 
 ## 2 Install MySQL
 
-Memilih set-up file 
+Memilih set-up file
 
 ![set-up file](05.install-mySQL.PNG)
 
+Memilih apa saja yang akan didownload 
+
+![pilih apa saja yang akan di download](06.install-mySQL-2.PNG)
+
+Proses install mySQL
+
+![proses install my SQl](07.Proses-installasi-mySql.PNG)
+
+Cek apakah mySQL sudah terinstall atau belum 
+
+![Cek MySQL Version](08.Cek-mySQL-sudah-Terinstall-Atau-belum.PNG)
+
+Login di mySQL 
+
+![login didatabase](09.Login-di-MySQL.PNG)
+
+Cek database 
+
+![cek database](10.Cek-database.PNG)
