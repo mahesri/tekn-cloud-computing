@@ -14,3 +14,10 @@ Tugas :
 
 [Lihat hasil tugas](tugas.md)
 
+Memilih Versi MongoDB
+
+![memilih vwer](11.memilih-versi-monggoDB.PNG)
+
+Memilih Set-UP
+
+![Alt text](12.memilih-versi-monggoDB.PNG)
