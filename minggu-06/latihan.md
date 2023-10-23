@@ -57,3 +57,15 @@ Cek database
 
 
 # Install MogoDB
+
+Set-Up MongoDB
+
+![Memilih Versi MongoDb](<11.memilih-versi-monggoDB copy.PNG>)
+
+Memilih versi mongoDB
+
+![memilih versi mongoDB](12.memilih-versi-monggoDB.PNG)
+
+Tampilan Kompas mongoDB
+
+![tampilan kompas mongoDB](13.Tampilan-MongoDB-compas.PNG)
