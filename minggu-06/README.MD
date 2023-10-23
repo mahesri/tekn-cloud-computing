@@ -13,11 +13,3 @@ Tugas :
  Membuat 2 program menggunakan pustaka yang ada di GraphQL.
 
 [Lihat hasil tugas](tugas.md)
-
-Memilih Versi MongoDB
-
-![memilih vwer](11.memilih-versi-monggoDB.PNG)
-
-Memilih Set-UP
-
-![Alt text](12.memilih-versi-monggoDB.PNG)
