@@ -45,3 +45,9 @@ Menambahkan item kedalam aplikasi to do
 Mengecek container yang sedang running
 
 ![cek-running-containers](12.Cek-containers.PNG)
+
+Memodifikasi `src/static/js/app.js' ketikan : 
+
+``````- <p className="text-center">No items yet! Add one above!</p>
++ <p className="text-center">You have no todo items yet! Add one above!</p>
+``````
