@@ -30,7 +30,18 @@ Menambahkan konten konfigurasi image kedalam docker file
 
 ![add content to docker-file](08.Add-Content-to-Docker-File.PNG)
 
-Login ke dalama docker
+Ketikan `docker run -dp 127.0.0.1:3000:3000 getting-started`
 
 ![Login ke docker](09.Login-to-Docker.PNG)
 
+Masuk web browser dan ketikan `127.0.0.1:3000`
+
+![Masuk-ke-web-browser](10.Login-to-web-browser.PNG)
+
+Menambahkan item kedalam aplikasi to do
+
+![add-item](11.add-item.PNG)
+
+Mengecek container yang sedang running
+
+![cek-running-containers](12.Cek-containers.PNG)
