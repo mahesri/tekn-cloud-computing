@@ -1,7 +1,7 @@
 # PRAKTIKUM PERTEMUAN 7
 
 ## Latihan
-[Get Started With Docker](latihan.md)
+[Get Started Docker](latihan.md)
 
 ## Tugas
 
