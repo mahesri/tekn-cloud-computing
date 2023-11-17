@@ -34,6 +34,51 @@ def hello():
     return 'Hello World! I have been seen {} times.\n'.format(count)
 ```
 
+ Yang mana program tersebut merupakan pemrogram Python. Beberapa tanda pengenal dari penggunaan Python dalam program tersebut melibatkan sintaks, modul, dan metode tertentu yang umum digunakan dalam bahasa pemrograman ini.
+
+Contoh tanda pengenal penggunaan Python dalam program tersebut:
+
+- Import Modul Python:
+
+Statement import digunakan untuk mengimpor modul-modul Python yang diperlukan. Dalam program di atas, import time dan import redis digunakan untuk mengimpor modul time dan redis.
+
+- Fungsi:
+
+Fungsi-fungsi seperti time.sleep dan redis.Redis menunjukkan penggunaan fungsi built-in Python dan fungsi dari modul pihak ketiga (redis).
+
+- Exception Handling:
+
+Blok try-except menunjukkan penanganan exception (pengecualian) dalam Python. Dalam hal ini, program mencoba melakukan operasi tertentu pada cache Redis, dan jika terjadi kesalahan koneksi, maka akan menunggu sebentar dan mencoba kembali.
+
+- String Formatting:
+
+Penggunaan metode format pada string ('Hello World! I have been seen {} times.\n'.format(count)) adalah cara umum untuk melakukan penggantian nilai variabel dalam string di Python.
+
+Dalam program tersebut juga terdapat fungsi yang secara explisit dapat saya jelaskan sebagai berikut :
+
+- cache.incr('hits'):
+
+Fungsi ini menggunakan objek cache (yang merupakan objek Redis) untuk melakukan operasi peningkatan (increment) pada kunci ('hits') di Redis. Ini secara efektif meningkatkan nilai yang terkait dengan kunci 'hits' setiap kali fungsi ini dipanggil.
+
+- while True: dan retries:
+
+Fungsi ini berada dalam loop while True, yang berarti akan mencoba terus menerus sampai operasi peningkatan berhasil. Variable retries digunakan untuk membatasi jumlah percobaan.
+
+- try-except:
+
+Blok try mencoba menjalankan operasi peningkatan di Redis. Jika berhasil, nilai yang dihasilkan oleh cache.incr('hits') akan dikembalikan oleh fungsi menggunakan pernyataan return.
+
+- except redis.exceptions.ConnectionError:
+
+Jika terjadi kesalahan koneksi Redis (ConnectionError), maka blok except akan menangkap exception tersebut. Program akan mencoba kembali untuk terhubung hingga batas retries tercapai.
+
+- time.sleep(0.5):
+
+Jika terjadi kesalahan koneksi, fungsi akan tertidur (sleep) selama 0.5 detik sebelum mencoba kembali. Ini membantu mengurangi tekanan pada sistem dan memberikan waktu untuk memulihkan koneksi.
+
+Dengan menggunakan mekanisme ini, fungsi get_hit_count() memastikan bahwa operasi peningkatan di Redis berhasil dan mengembalikan jumlah kunjungan yang ditingkatkan. Fungsi ini digunakan dalam rute utama (@app.route('/')) untuk mendapatkan jumlah kunjungan dan menampilkan pesan "Hello World! I have been seen {} times." di halaman web yang bisa dilihat [disini](04.localhost-display.PNG).
+
+
 buat file baru dengan nama "requirements.txt" dan pastekan tulisan berikut :
 
 ```
@@ -70,4 +115,19 @@ services:
       - "8000:5000"
   redis:
     image: "redis:alpine"
-``` 
+```
+
+Setelah itu masuk ke Step 4: Build and run our app dengan mengetikan `docker compose up`
+
+![hit-and-run](03.Run-&-Build-The-App.PNG)
+
+masuk ke `localhost:8000/` dengan mengetikannya didalam tab browser :
+
+![ localhost-surface](04.localhost-display.PNG)
+
+Mengecek container yang sedang berjalan dimesin kita 
+
+![cek-running-continer](01.Belajar-Docker-Compose.PNG)
+
+Membuat Kontainer dapat berjalan didalam background dengan mengetikan `docker compose up -d`
+
