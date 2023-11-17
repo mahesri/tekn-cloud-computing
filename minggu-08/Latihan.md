@@ -131,3 +131,10 @@ Mengecek container yang sedang berjalan dimesin kita
 
 Membuat Kontainer dapat berjalan didalam background dengan mengetikan `docker compose up -d`
 
+![run-the-container-into-background](05.run-the-container-into-bacground.PNG)
+
+Hapus container yang sudah berjalan dan menghapus volume data yang ada di redis dengan perintah `docker compose down --volumes`
+
+![Stop-the-container](06.Stop-the-container.PNG)
+
+Selesai 
