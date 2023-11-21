@@ -150,7 +150,7 @@ Catatan :
 
 Cek container yang baru saja dijalankan dilocalhost dengan masuk ke browser dan ketikan `localhost:80/` di tab baru .
 
-![cek](19.cek-localhost:80.png)
+![cek](19.cek-localhost80.png)
 
 Matikan conatiner yang sedang berjalan dengan perintah `docker container rm --force linux_tweet_app`
 
@@ -175,7 +175,7 @@ Bind mount dalam Docker adalah cara untuk mengaitkan (bind) suatu direktori atau
 
 Memodifikasi tampilan website yang sedang berjalan dengan me-replace file index.html dengan index-new.html dengan perintah ` cp index-new.html index.html` dengan perintah tersebut, tampilan website yang sebelumnya didapati sebagai berikut :
 
-![cek localhost](19.cek-localhost:80.png)
+![cek localhost](19.cek-localhost80.png)
 
 Menjadi sebagai seperti ini : 
 
@@ -201,4 +201,7 @@ Push images ke Docker Hub dengan perintah ` docker image ls -f reference="$DOCKE
 
 ![push to docker hub](26.push-to-docker-Hub.png)
 
+![push to docker hub 2](27.Push-all-image-todocker-hub.png)
+
+## Selesai 
 
