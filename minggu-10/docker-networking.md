@@ -66,7 +66,7 @@ Catatan :
 
 Cek Installasi Docker di host dengan perintah `docker info`
 
-![docker-info](02.docker-info)
+![docker-info](02.docker-info.png)
 
 
 ## Section #2 - Bridge Networking
@@ -134,7 +134,7 @@ Pull container dari NGINX dan menjalankannya di Docker hoste kita, pull dengan p
 
 Cek apakah installasi NGINX sudah berhasi dengan masuk ke web browser kita dan mengetikan `localhost:8080/` di tab baru.
 
-![cek nginx installation](14.cek-localhost:8080.png)
+![cek nginx installation](14.cek-localhost-8080.png)
 
 ## Section #3 - Overlay Networking
 
@@ -206,7 +206,7 @@ ubuntu sleep infinity
 
 Melihat service dengan perintah `docker service ls`
 
-![Cek the Service](17.cek-network-list.png)
+![Cek the Service](17.Make-a-service.png)
 
 Melihat service yang kita buuat dan jaringannya 
 
