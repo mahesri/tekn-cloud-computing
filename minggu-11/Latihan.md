@@ -13,3 +13,5 @@ Masuk ke directory linkextractor dengan mengetikan ` cd linkextractor` di comman
 Checkout `step0` branch dan list isi directory tersebut 
 
 ![check the list](02.Check-out-step0-directory.PNG)
+
+Buka file linkextractor di command line dengan perintah `cat linkextractor.py`
