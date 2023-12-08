@@ -46,7 +46,7 @@ ModuleNotFoundError: No module named 'requests'
 
 Catatan :
 Error tersebut mengindikasikan tentang bebrapa komponen yang belum tersedia didalam host play with Docker, yang mana dalam langkah berikutnya program akan
-![di-containerize](https://www.redhat.com/en/topics/cloud-native-apps/what-is-containerization) dengan container Docker untuk memudahkan program tersebut di execute.
+[di-containerize](https://www.redhat.com/en/topics/cloud-native-apps/what-is-containerization) dengan container Docker untuk memudahkan program tersebut di execute.
 
 ## Step 1: Containerized Link Extractor Script
 
@@ -54,4 +54,27 @@ Checkout drictory `step1` dan buka file Docker yang ada dalam directory tersebut
 
 ![cat Dockerfile](04.Checkout-step1.PNG)
 
+Build image dengan perintah `docker image build -t linkextractor:step1 .` secara otomatis, dengan menggunakan Dockerfile yang ad di list step1 kita dapat menyiapkan image Docker untuk skrip yang tadi sempat gagal di step sebelumnya. Mulai dari image python Docker resmi yang berisi run-time Python environment serta tools yang diperlukan untuk menginstal paket dan dependensi Python.
+
+Mengecek docker image di host dengan perintah `docker image ls`
+
+![docker image cek](05.Docker-image-cek.PNG)
+
+Jalankan kontainer dengan perintah `docker container run -it --rm linkextractor:step1 http://example.com/` dan akan didapati output sebagai berikut 
+
+![run the container](06.Run-the-container.PNG)
+
+Mencoba dalam webpage lain
+
+![try the other web page](07.Try-for-the-other-website.PNG)
+
+## Step 2: Link Extractor Module with Full URI and Anchor Text
+
+Checkout ke repositori `step2`
+
+![checkout to the other repo](08.Move-to-the-others-Repo.PNG)
+
+Jalankan Docker yang ada di list dengan perintah `docker image build -t linkextractor:step2 .` dan cek apakah sudah ter-build dengan benar 
+
+![Run the Docker step2](09.Run-theDocker-Step2.PNG)
 
