@@ -6,7 +6,7 @@ Cloning Demo repository
 
 ![clome demo repo](01.clone-demo-repo.PNG)
 
-Masuk ke directory linkextractor dengan mengetikan ` cd linkextractor` di command line Play With Docker, setelah itu switching directoy ke demo dengan mengetikan perintah `git checkout demo` di command line (CLI).
+Masuk ke directory linkextractor dengan mengetikan ` cd linkextractor` di command line interface (CLI) Play With Docker, setelah itu switching repositori ke demo dengan mengetikan perintah `git checkout demo` di CLI.
 
 ## Step 0: Basic Link Extractor Script
 
@@ -53,4 +53,5 @@ Error tersebut mengindikasikan tentang bebrapa komponen yang belum tersedia dida
 Checkout drictory `step1` dan buka file Docker yang ada dalam directory tersebut
 
 ![cat Dockerfile](04.Checkout-step1.PNG)
+
 
