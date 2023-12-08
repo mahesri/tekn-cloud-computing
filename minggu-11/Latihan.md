@@ -74,7 +74,20 @@ Checkout ke repositori `step2`
 
 ![checkout to the other repo](08.Move-to-the-others-Repo.PNG)
 
-Jalankan Docker yang ada di list dengan perintah `docker image build -t linkextractor:step2 .` dan cek apakah sudah ter-build dengan benar 
+Build Dockerfile yang ada di list dengan perintah `docker image build -t linkextractor:step2 .` dan cek apakah sudah ter-build di host kita, dengan perintah `docker image ls`
 
 ![Run the Docker step2](09.Run-theDocker-Step2.PNG)
 
+Jalankan kontainer dengan mengecek link diplay with Docker
+
+![play with docker](10.Run-the%20APP-Step2.PNG)
+
+## Step 3: Link Extractor API Service
+
+Checout step3 dan list repository tersebut
+
+![list repo step3](11.Checkout-step3.PNG)
+
+Build image yang ada dilist
+
+![build image](12.Build-Image-step3.PNG)
