@@ -24,7 +24,7 @@ Status: Downloaded newer imagefor ubuntu:latest
 
 Cek container dengan perintah `docker ps` dan didapati output sebagai berikut :
 
-[cek container](01.cek-container.PNG)
+![cek container](01.cek-container.PNG)
 
 ## Step 2.1 - Create a Manager node
 
@@ -137,11 +137,11 @@ Jalankan perintah berikut kedalam node1 dan node2 `docker swarm join --token SWM
 
 Display output node2 
 
-[node2 display](02.display-node2.PNG)
+![node2 display](02.display-node2.PNG)
 
 Display output node3
 
-[display node3](03.display-node3.PNG)
+![display node3](03.display-node3.PNG)
 
 Kembali ke node1, dan periksa apakah node1 dan node2 sudah menjadi worker nodes dari node1 sebagai managernya, dengan perintah berikut `docker node ls` dan didapati output sebagai berikut :
 
@@ -159,6 +159,4 @@ h2tylrd6wckobix2bh0j31izs     node3      Ready     Active          24.0.7
 
 Deploy sleep as a Service across Docker Swarm dengan perintah berikut `docker service create --name sleep-app ubuntu sleep infinity` dan didapati output sebagai berikut :
 
-
-
-
+![create new service](04.Create-new-service.PNG)
