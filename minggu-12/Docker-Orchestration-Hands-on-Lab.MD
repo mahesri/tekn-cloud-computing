@@ -4,7 +4,7 @@
 
 Sesi 1 merupakan penjelasan mengenai Orkrestasi, Orkrestasi secara umum dapat dijelaskan "misalkan" kita memiliki aplikasi dengan trafik yang tinggi dan memiliki high-availability requirements.
 
-Salah satu manfaat dari Orkrestasi adalah kita dapat menghilangkan sebagian besar pekerjaan manual dalam mendeploy aplikasi dan membiarkan otomatisasi melakukan pekerjaan beratnya. Salah satu fitur keren dari Orkestrasi dengan Docker Swarm, adalah bahwa kita dapat mendeploy aplikasi di banyak host hanya dengan satu perintah (setelah Swarm mode diaktifkan). Selain itu, jika salah satu node/host pendukung mati dalam Docker Swarm kita, node/host lain secara otomatis akan mengambil beban, dan aplikasi Anda akan terus berjalan seperti biasa.
+Salah satu manfaat dari Orkrestasi adalah kita dapat menghilangkan sebagian besar pekerjaan manual dalam mendeploy aplikasi dan membiarkan otomatisasi melakukan pekerjaan beratnya. Salah satu fitur keren dari Orkestrasi dengan Docker Swarm, adalah bahwa kita dapat mendeploy aplikasi di banyak host hanya dengan satu perintah (setelah Swarm mode diaktifkan). Selain itu, jika salah satu node/host pendukung mati dalam Docker Swarm kita, node/host lain secara otomatis akan mengambil beban, dan aplikasi kita akan terus berjalan seperti biasa.
 
 ## Section 2: Configure Swarm Mode
 
@@ -157,6 +157,90 @@ h2tylrd6wckobix2bh0j31izs     node3      Ready     Active          24.0.7
 
 ## Step 3.1 - Deploy the application components as Docker services
 
-Deploy sleep as a Service across Docker Swarm dengan perintah berikut `docker service create --name sleep-app ubuntu sleep infinity` dan didapati output sebagai berikut :
+Deploy sleep as a Service across Docker Swarm dengan perintah berikut di node1 `docker service create --name sleep-app ubuntu sleep infinity` dan didapati output sebagai berikut :
 
 ![create new service](04.Create-new-service.PNG)
+
+Verifikasi bahwa pembuatan layanan telah diterima oleh manajer Swarm dengan perintah `docker service ls` di node1 dan didapati output sebagai berikut :
+
+![cek teh service](05.verify-service.PNG)
+
+Scale up sleep service dengan perintah berikut di node1 `docker service update --replicas 7 sleep-app` dan akan didapai output sebagai berikut :
+
+```
+overall progress: 0 out of 7 tasks
+1/7:
+2/7:
+3/7:
+overall progress: 7 out of 7 tasks
+5/7: running
+6/7: running
+7/7: running
+verify: Service converged
+```
+
+Cek apakah semua service sudah running secara real time dengan perintah berikut di node1 `docker service ps sleep-app` dan didapati output sebagai berikut 
+
+```
+ID             NAME          IMAGE           NODE      DESIRED STATE   CURRENT STATE            ERROR     PORTS
+z2r06hlnzqs7   sleep-app.1   ubuntu:latest   node1     Running         Running 28 minutes ago
+rjltxr9fthen   sleep-app.2   ubuntu:latest   node2     Running         Running 6 minutes ago
+lfl91r7lrn6g   sleep-app.3   ubuntu:latest   node3     Running         Running 6 minutes ago
+l37dvn0e64rb   sleep-app.4   ubuntu:latest   node3     Running         Running 6 minutes ago
+qly0c3vuulnt   sleep-app.5   ubuntu:latest   node1     Running         Running 6 minutes ago
+hu3wpdo2hzlh   sleep-app.6   ubuntu:latest   node2     Running         Running 6 minutes ago
+qt8zgfr6ad1w   sleep-app.7   ubuntu:latest   node3     Running         Running 6 minutes ago
+```
+
+Scale dwon service menjadi 4 container tersisa dengan perintah berikut `docker service update --replicas 4 sleep-app` dan didapati output sebagai berikut :
+
+```
+$ docker service update --replicas 4 sleep-app
+sleep-app
+overall progress: 0 out of 4 tasks
+overall progress: 4 out of 4 tasks
+2/4: running
+3/4: running
+4/4: running
+verify: Service converged
+```
+
+Cek kembali continer service yang tersedia dengan perintah `docker service ps sleep-app` dan sekarang didapati output sebagai berikut :
+
+```
+$ docker service ps sleep-app
+ID             NAME          IMAGE           NODE  DESIRED STATE   CURRENT STATE            ERRORPORTS
+z2r06hlnzqs7   sleep-app.1   ubuntu:latest   node1  Running         Running 34 minutes ago
+rjltxr9fthen   sleep-app.2   ubuntu:latest   node2  Running         Running 12 minutes ago
+lfl91r7lrn6g   sleep-app.3   ubuntu:latest   node3  Running         Running 11 minutes ago
+l37dvn0e64rb   sleep-app.4   ubuntu:latest   node3  Running         Running 12 minutes ago
+```
+
+## Section 5: Drain a node and reschedule the containers
+
+Cek node di node manager dan didapati output sebagai berikut :
+
+```
+
+$ docker node ls
+ID                            HOSTNAME   STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+ghknskfz1o5z8qgrz1zjct2yt *   node1      Ready     Active         Leader           24.0.7
+i5sbfs6zpsngfj3vax6guem6f     node2      Ready     Active                          24.0.7
+h2tylrd6wckobix2bh0j31izs     node3      Ready     Active                          24.0.7
+```
+
+cek container di node2 dan didapati output sebagai berikut :
+
+```
+$ docker ps
+CONTAINER ID   IMAGE           COMMAND            CREATED          STATUS          PORTS     NAMES
+037630f07f7d   ubuntu:latest   "sleep infinity"   17minutes ago   Up 17 minutes             sleep-app.2.rjltxr9fthenfr5xdoqgoo3h7
+```
+
+## Cleaning Up
+
+Hapus container dengan perintah berikut :
+
+`docker service rm sleep-app`
+
+Keluar dari mode swarm di semua node dengan mengetikan perintah `docker swarm leave --force` disemua node
